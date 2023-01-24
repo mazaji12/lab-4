@@ -5,8 +5,7 @@ $("BttnPost").click(TodoPost)
 
 function TodoClear(){
 
-    let todo=$("#Todotxt").val
-    alert(todo)
+   
 }
 
 function TodoMark(){
@@ -16,5 +15,6 @@ function TodoDel(){
     
 }
 function TodoPost(){
-    
+    let todo=$("#Todotxt").val
+    alert(todo)
 }
