@@ -17,5 +17,5 @@ function TodoDel(){
 function TodoPost(e){
     e.preventdefault()
     let todo =$("#Todotxt").val
-    $("#todoList").append()
+    $("#todoList").append(`<input type="checkbox"`)
 }
