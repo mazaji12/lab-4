@@ -15,6 +15,7 @@ function TodoDel(){
     
 }
 function TodoPost(){
-    let todo=$("#Todotxt").val
-    alert(todo)
+    e.preventdefault()
+    let todo =$("#Todotxt").val
+    $("#todoList").append()
 }
