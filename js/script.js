@@ -14,7 +14,7 @@ function TodoMark(){
 function TodoDel(){
     
 }
-function TodoPost(){
+function TodoPost(e){
     e.preventdefault()
     let todo =$("#Todotxt").val
     $("#todoList").append()
